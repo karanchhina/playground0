@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.1.12",
-    "@auth0/nextjs-auth0": "4.4.2",
+    "@auth0/nextjs-auth0": "^4.5.1",
     "@octokit/rest": "^21.1.1",
     "ai": "^4.1.41",
     "auth0": "^4.20.0",
@@ -19,7 +19,7 @@
     "dotenv": "^16.4.7",
     "googleapis": "^144.0.0",
     "lucide-react": "^0.503.0",
-    "next": "15.1.7",
+    "next": "15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "stripe": "^18.0.0",
