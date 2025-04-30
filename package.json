@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.1.12",
-    "@auth0/nextjs-auth0": "file:../nextjs-auth0-feat-federated-connection-token",
+    "@auth0/nextjs-auth0": "4.4.2",
     "@octokit/rest": "^21.1.1",
     "ai": "^4.1.41",
     "auth0": "^4.20.0",
