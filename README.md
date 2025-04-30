@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Playground0 is a demo chatbot AI agent app showcasing Auth0's integration capabilities with various third-party services using Auth for GenAI.
+
+![Screenshot of Playground0](screenshot.png)
+
+Checkout the auth0.com/ai for SDKs, quickstarts, and more.
+
+### Features:
+- Account linking with social and OIDC connections
+- Support for Salesforce, GitHub, Google Calendar, Spotify, and more
+- Real-time chat interface backed by an LLM
+- Profile management example
+- Coming soon: Unlink and relink accounts
+- Coming soon: Support for more services
+### Credits:
+Built with Next.js, Vercel AI SDK, Auth0 Auth for GenAI, and various third-party APIs. Icons by Lucide and Heroicons.
 
 To get this going:
 
