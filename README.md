@@ -1,6 +1,6 @@
 Playground0 is a demo chatbot AI agent app showcasing Auth0's integration capabilities with various third-party services using Auth for GenAI ([auth0.com/ai](https://auth0.com/ai)).
 
-<img src="screenshot.png" alt="Screenshot of Playground0">
+<img src="playground02x.gif" alt="Playground0 demo showing salesforce connection">
 
 Checkout the [auth0.com/ai](https://auth0.com/ai) for SDKs, quickstarts, and more.
 
