@@ -21,10 +21,9 @@ export default function RootLayout({ children }) {
           fontFamily: "var(--font-outfit), sans-serif",
         }}
       >
-        <div className="flex flex-col h-screen text-gray-800 font-mono shadow-md bg-white">
+        <div className="flex flex-col h-screen text-gray-800 font-mono bg-white">
           <Navbar />
-          <div className="flex flex-1 bg-white"
-          >
+          <div className="flex flex-1 bg-white">
             {children}
           </div>
         </div>

@@ -18,13 +18,13 @@ const Navbar = async () => {
                     {session ? (
                         <>
                             <div className="flex items-center gap-x-2 text-md text-gray-800 font-mono">
-                                [<a href="/" className="px-2 py-1 flex flex-row items-center gap-x-1 shadow-md hover:underline">
+                                [<a href="/" className="px-2 py-1 flex flex-row items-center gap-x-1 hover:underline">
                                     Chat
                                 </a>]
-                                [<a href="/profile" className="px-2 py-1 flex flex-row items-center gap-x-1 shadow-md hover:underline">
+                                [<a href="/profile" className="px-2 py-1 flex flex-row items-center gap-x-1 hover:underline">
                                     Profile
                                 </a>]
-                                [<a href="/auth/logout" className="px-2 py-1 flex flex-row items-center gap-x-1 shadow-md hover:underline">
+                                [<a href="/auth/logout" className="px-2 py-1 flex flex-row items-center gap-x-1 hover:underline">
                                     Logout
                                 </a>]
                             </div>

@@ -33,7 +33,7 @@ const ChatHome = ({ session, identities = [] }) => {
             {/* Modal */}
             {selectedCompany && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-20">
-                    <div className="p-6 border-2 border-gray-300 shadow-lg w-1/2 min-w-[600px] max-w-2xl bg-white rounded-lg">
+                    <div className="p-6 border-2 border-gray-300 w-1/2 min-w-[600px] max-w-2xl bg-white rounded-lg">
                         <img src={selectedCompany.logo} alt={`${selectedCompany.company} logo`} className="w-16 mb-4" />
                         <h2 className="font-bold mb-4">{selectedCompany.company}</h2>
                         <p className="mb-4">{selectedCompany.description}</p>
@@ -44,14 +44,14 @@ const ChatHome = ({ session, identities = [] }) => {
                                     <form action={() => null}>
                                         <button>
                                             <div className="flex items-center gap-x-2">
-                                                [<span className="px-2 py-1 flex flex-row items-center gap-x-1 shadow-md hover:underline">Unlink Account</span>]
+                                                [<span className="px-2 py-1 flex flex-row items-center gap-x-1 hover:underline">Unlink Account</span>]
                                             </div>
                                         </button>
                                     </form>
                                     <form action={() => linkSocialAccount(selectedCompany.connection)}>
                                         <button>
                                             <div className="flex items-center gap-x-2">
-                                                [<span className="px-2 py-1 flex flex-row items-center gap-x-1 shadow-md hover:underline">Relink Account</span>]
+                                                [<span className="px-2 py-1 flex flex-row items-center gap-x-1 hover:underline">Relink Account</span>]
                                             </div>
                                         </button>
                                     </form>
@@ -61,14 +61,14 @@ const ChatHome = ({ session, identities = [] }) => {
                                 <form action={() => linkSocialAccount(selectedCompany.connection)}>
                                     <button>
                                         <div className="flex items-center gap-x-2">
-                                            [<span className="px-2 py-1 flex flex-row items-center gap-x-1 shadow-md hover:underline">Link Account</span>]
+                                            [<span className="px-2 py-1 flex flex-row items-center gap-x-1 hover:underline">Link Account</span>]
                                         </div>
                                     </button>
                                 </form>
                             )}
                             <button onClick={closeModal}>
                                 <div className="flex items-center gap-x-2">
-                                    [<span className="px-2 py-1 flex flex-row items-center gap-x-1 shadow-md hover:underline">Close</span>]
+                                    [<span className="px-2 py-1 flex flex-row items-center gap-x-1 hover:underline">Close</span>]
                                 </div>
                             </button>
                         </div>
