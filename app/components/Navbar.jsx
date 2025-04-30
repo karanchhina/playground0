@@ -65,9 +65,6 @@ const Navbar = ({ session }) => {
                             <p className="text-gray-700">
                                 Checkout the <a href="https://auth0.com/ai" className="text-blue-500 hover:underline">auth0.com/ai</a> for SDKs, quickstarts, and more.
                             </p>
-                            <p className="text-gray-700">
-                                Checkout the <a href="https://github.com/karanchhina/playground0" className="text-blue-500 hover:underline">GitHub repo</a> for the source code.
-                            </p>
                             <div className="border-t border-gray-200 pt-4">
                                 <h3 className="font-semibold mb-2">Features:</h3>
                                 <ul className="list-disc list-inside space-y-1 text-gray-700">
