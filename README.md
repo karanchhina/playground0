@@ -38,3 +38,5 @@ SALESFORCE_INSTANCE_URL=<e.g. https://xxxxxxxx.my.salesforce.com>
 `npm i`
 
 `npm run dev`
+
+Note*** you need to have Auth0 configured with a tenant supporting Auth for GenAI, necessary application and connections (github, google, sfdc, etc.) configured. Checkout the quickstarts and how-tos at [auth0.com/ai](https://auth0.com/ai)
