@@ -37,19 +37,20 @@ const ChatHome = ({ session, identities = [] }) => {
                         <img src={selectedCompany.logo} alt={`${selectedCompany.company} logo`} className="w-16 mb-4" />
                         <h2 className="font-bold mb-4">{selectedCompany.company}</h2>
                         <p className="mb-4">{selectedCompany.description}</p>
+                        <p className="mb-4 text-sm text-gray-600">Auth0 connection name: {selectedCompany.connection}</p>
 
                         <div className="flex justify-between">
                             {matchingIdentity ? (
                                 <>
                                     <form action={() => null}>
-                                        <button>
+                                        <button disabled className="opacity-50 cursor-not-allowed" title="Coming soon">
                                             <div className="flex items-center gap-x-2">
-                                                [<span className="px-2 py-1 flex flex-row items-center gap-x-1 hover:underline">Unlink Account</span>]
+                                                [<span className="px-2 py-1 flex flex-row items-center gap-x-1">Unlink Account</span>]
                                             </div>
                                         </button>
                                     </form>
                                     <form action={() => linkSocialAccount(selectedCompany.connection)}>
-                                        <button>
+                                        <button disabled className="opacity-50 cursor-not-allowed" title="Coming soon">
                                             <div className="flex items-center gap-x-2">
                                                 [<span className="px-2 py-1 flex flex-row items-center gap-x-1 hover:underline">Relink Account</span>]
                                             </div>
@@ -82,7 +83,7 @@ const ChatHome = ({ session, identities = [] }) => {
             >
                 <div className="flex flex-row pt-12 h-screen">
                     <div className="p-4 w-full max-h overflow-y-auto">
-                        <p className="ml-2 mb-3">Connected Apps</p>
+                        <p className="ml-2 mb-3 font-semibold">Connected Apps</p>
                         <TreeComponent onCompanySelect={setSelectedCompany} identities={identities} />
                     </div>
                     <div className="flex bg-gray-100 cursor-pointer p-2 items-center" onClick={toggleDrawer}>

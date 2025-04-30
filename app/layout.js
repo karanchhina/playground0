@@ -1,6 +1,6 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
+import NavbarWrapper from "./components/NavbarWrapper";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         }}
       >
         <div className="flex flex-col h-screen text-gray-800 font-mono bg-white">
-          <Navbar />
+          <NavbarWrapper />
           <div className="flex flex-1 bg-white">
             {children}
           </div>

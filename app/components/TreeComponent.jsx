@@ -45,6 +45,14 @@ const TreeComponent = ({ onCompanySelect, identities = [] }) => {
                     </div> */}
                 </div>
             ))}
+            <div className="pl-2">
+                <div className="flex items-center space-x-3 text-gray-500">
+                    <div className="w-6 h-6"></div>
+                    <div className="flex items-center justify-between w-full">
+                        <h2>More coming soon...</h2>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
